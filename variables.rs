@@ -4,6 +4,8 @@ fn main() {
     let bunnies = 2;
 }
 
+
+
 //32 bit variable
   //immutable
 fn main() {
@@ -11,8 +13,26 @@ fn main() {
 }
 
 
+
 //multiple variables in the same line
   //immutable
 fn main() {
     let (bunnies, carrots) = (8, 50);
 }
+
+
+
+//mutable variable
+fn main() {
+    let mut x = 3;
+}
+
+
+//constant variable - more immutable then immutable varriables
+  //cont is declaired - const
+  //the variable is in all capitol letters
+  //the type anotation is required ex: i32, f64, etc.
+  // the vault must be a constiant expression that can be determined at compile time. - 9.9
+fn main() {
+    const WARP_FACTOR: f64 = 9.9;
+}|
