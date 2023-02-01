@@ -1,4 +1,4 @@
-//standard variable
+//standard variable - can not change the vaule while in the imudable state, you can change the variable into a mutable state to change (but this is not the default)
 fn main() {
     let bunnies = 2;
 }
